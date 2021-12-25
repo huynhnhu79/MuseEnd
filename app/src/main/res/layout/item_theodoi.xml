@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".TheodoiActivity">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/hongpastel">
+        <ImageButton
+            android:id="@+id/imvBackAccount"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_arrow_back"
+
+            android:background="@color/hongpastel"
+            />
+        <TextView
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="wrap_content"
+            android:text="@string/acc_title"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+
+    </Toolbar>
+
+    <TextView
+        android:id="@+id/muc_theodoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acc_follow"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="11dp"
+        android:textStyle="normal"
+        android:textColor="@color/xam">
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="14dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgIg"
+                        android:layout_width="37dp"
+                        android:layout_height="37dp"
+                        android:layout_marginRight="50dp"
+                        android:src="@drawable/ig" />
+
+                    <TextView
+                        android:id="@+id/title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acc_ins"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="7dp">
+
+                    <ImageView
+                        android:id="@+id/imgMuse"
+                        android:layout_width="87dp"
+                        android:layout_height="87dp"
+                        android:paddingLeft="-27dp"
+                        android:src="@drawable/muse" />
+
+                    <TextView
+                        android:id="@+id/mxh1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/acc_moff"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="87dp"
+                        android:textStyle="normal" />
+                    <Button
+                        android:id="@+id/btnTd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_color_button"
+                        android:textSize="18sp"
+                        android:text="@string/acc_theodoi"
+                        android:textAllCaps="false"
+                        android:textStyle="normal"
+                        android:textColor="@color/black"
+                        android:layout_marginBottom="19dp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+                <View
+                    android:layout_width="380dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/black"
+                    android:layout_margin="7dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgFb"
+                        android:layout_width="37dp"
+                        android:layout_height="37dp"
+                        android:layout_marginRight="50dp"
+                        android:src="@drawable/fb" />
+
+                    <TextView
+                        android:id="@+id/title2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acc_fb"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="7dp">
+
+                    <ImageView
+                        android:id="@+id/imgMuse1"
+                        android:layout_width="87dp"
+                        android:layout_height="87dp"
+                        android:paddingLeft="-27dp"
+                        android:src="@drawable/muse" />
+
+                    <TextView
+                        android:id="@+id/mxh2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/acc_muse"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="141dp"
+                        android:textStyle="normal" />
+                    <Button
+                        android:id="@+id/btnTd1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_color_button"
+                        android:textSize="18sp"
+                        android:text="@string/acc_theodoi"
+                        android:textAllCaps="false"
+                        android:textStyle="normal"
+                        android:textColor="@color/black"
+                        android:layout_marginBottom="19dp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+                <View
+                    android:layout_width="380dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/black"
+                    android:layout_margin="7dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgTt"
+                        android:layout_width="37dp"
+                        android:layout_height="37dp"
+                        android:layout_marginRight="50dp"
+                        android:src="@drawable/tiktok" />
+
+                    <TextView
+                        android:id="@+id/title3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acc_tik"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="7dp">
+
+                    <ImageView
+                        android:id="@+id/imgMuse2"
+                        android:layout_width="87dp"
+                        android:layout_height="87dp"
+                        android:paddingLeft="-27dp"
+                        android:src="@drawable/muse" />
+
+                    <TextView
+                        android:id="@+id/mxh3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/acc_muse1"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="77dp"
+                        android:textStyle="normal" />
+                    <Button
+                        android:id="@+id/btnTd2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_color_button"
+                        android:textSize="18sp"
+                        android:text="@string/acc_theodoi"
+                        android:textAllCaps="false"
+                        android:textStyle="normal"
+                        android:textColor="@color/black"
+                        android:layout_marginBottom="19dp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+                <View
+                    android:layout_width="380dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/black"
+                    android:layout_margin="7dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgYt"
+                        android:layout_width="37dp"
+                        android:layout_height="37dp"
+                        android:layout_marginRight="50dp"
+                        android:src="@drawable/yt" />
+
+                    <TextView
+                        android:id="@+id/title4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acc_yt"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="7dp">
+
+                    <ImageView
+                        android:id="@+id/imgMuse3"
+                        android:layout_width="87dp"
+                        android:layout_height="87dp"
+                        android:paddingLeft="-27dp"
+                        android:src="@drawable/muse" />
+
+                    <TextView
+                        android:id="@+id/mxh4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/acc_moff"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="87dp"
+                        android:textStyle="normal" />
+                    <Button
+                        android:id="@+id/btnTd3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_color_button"
+                        android:textSize="18sp"
+                        android:text="@string/acc_theodoi"
+                        android:textAllCaps="false"
+                        android:textStyle="normal"
+                        android:textColor="@color/black"
+                        android:layout_marginBottom="19dp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

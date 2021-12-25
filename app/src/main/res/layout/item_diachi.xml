@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/hongpastel">
+        <ImageButton
+            android:id="@+id/imvBackAccount"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_arrow_back"
+
+            android:background="@color/hongpastel"
+            />
+        <TextView
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="wrap_content"
+            android:text="@string/acc_title"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+
+    </Toolbar>
+
+    <TextView
+        android:id="@+id/muc_diachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acc_address"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="9dp"
+        android:textStyle="normal"
+        android:textColor="@color/xam">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acc_them"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnAdd_dc"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="207dp"
+            android:background="@drawable/ic_action_add" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="7dp"
+        android:background="@color/xam">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/acc"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="14dp"
+                android:src="@drawable/ic_action_account" />
+
+            <TextView
+                android:id="@+id/ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/acc_n11"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/locate"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="14dp"
+                android:src="@drawable/ic_action_location" />
+
+            <TextView
+                android:id="@+id/noi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/acc_dchi"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+            <Button
+                android:id="@+id/btnMore"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_marginStart="85dp"
+                android:background="@drawable/ic_action_more" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/flag"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="14dp"
+                android:src="@drawable/ic_action_flag" />
+
+            <TextView
+                android:id="@+id/tuychon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/acc_dcmd"
+                android:textColor="@color/purple_500"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

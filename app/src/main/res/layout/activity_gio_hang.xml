@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/white">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_vanchuyen"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        >
+
+        <ImageView
+            android:id="@+id/imvBackCart"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"                       android:src="@drawable/ic_baseline_arrow_back_1"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GIỎ HÀNG"
+            android:layout_marginStart="@dimen/_90sdp"
+            android:textSize="20sp"
+            android:textColor="@color/xanhdam"
+            android:textStyle="bold"/>
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <ListView
+        android:id="@+id/lvGiohang"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@color/white"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Tổng cộng"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@color/xanhdam"/>
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="200000"
+        android:textSize="22sp"
+        android:textColor="@color/xanhdam"
+        android:textAlignment="textEnd"/>
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(Chưa bao gồm phí vận chuyển)"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:textColor="@color/xanhdam"
+        android:textAlignment="textEnd"/>
+
+    <Button
+        android:id="@+id/btnMuahang"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Mua hàng"
+        android:textSize="22sp"
+        android:textColor="@color/xanhdam"
+        android:backgroundTint="#989797"
+        android:background="@drawable/custom_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txtTTShopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiếp tục mua sắm"
+        android:textStyle="italic"
+        android:textSize="22sp"
+        android:textColor="@color/xanhdam"
+        android:textAlignment="center"/>
+
+
+
+</LinearLayout>

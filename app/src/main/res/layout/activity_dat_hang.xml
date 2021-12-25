@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".DathangActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_order"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <ImageView
+            android:id="@+id/imvBackOrder"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"                       android:src="@drawable/ic_baseline_arrow_back_1"
+
+            />
+
+        <TextView
+            android:id="@+id/txtDathang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ord_title"
+            android:layout_marginStart="@dimen/_90sdp"
+            android:textColor="@color/xanhdam"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+        <ImageView
+            android:id="@+id/imvSPdt1"
+            android:layout_width="137dp"
+            android:layout_height="147dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/aokhoac1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar_order"/>
+
+
+    <TextView
+        android:id="@+id/txtSPdh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/ord_jacket"
+        android:textColor="@color/xanhdam"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_order"
+        app:layout_constraintLeft_toRightOf="@id/imvSPdt1"
+        />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtGiadt1"
+                android:text="@string/ord_400"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:textColor="@color/xanhdam"
+                android:textStyle="normal"
+                app:layout_constraintTop_toBottomOf="@id/txtSPdh1"
+                app:layout_constraintLeft_toRightOf="@id/imvSPdt1"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toRightOf="@id/imvSPdt1"
+        app:layout_constraintTop_toBottomOf="@id/txtGiadt1">
+        <ImageView
+            android:id="@+id/imvminus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_minus"/>
+        <TextView
+            android:id="@+id/txtSLSP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/xanhdam"/>
+        <ImageView
+            android:id="@+id/imvplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_plus"/>
+
+    </LinearLayout>
+
+
+    <Toolbar
+        android:id="@+id/line_toolbar_dth1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintTop_toBottomOf="@id/imvSPdt1"
+        >
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@android:color/black" />
+    </Toolbar>
+
+    <LinearLayout
+        android:id="@id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/line_toolbar_dth1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="27dp"
+                android:id="@+id/imvmap"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/icon_map"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDc"
+                android:text="@string/ord_addr"
+                android:textSize="18sp"
+                android:textColor="@color/xanhdam"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtTnSDT"
+            android:text="@string/ord_info"
+            android:layout_marginLeft="27dp"
+            android:textSize="18sp"
+            android:textColor="@color/xanhdam"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtDci"
+            android:text="@string/ord_info1"
+            android:layout_marginLeft="27dp"
+            android:textSize="18sp"
+            android:textColor="@color/xanhdam"
+            android:textStyle="normal"/>
+    </LinearLayout>
+
+    <Toolbar
+        android:id="@+id/line_toolbar_dth2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal"
+
+        app:layout_constraintTop_toBottomOf="@id/linearLayout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@android:color/black" />
+    </Toolbar>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintTop_toBottomOf="@id/line_toolbar_dth2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPt_vc"
+            android:text="@string/ord_deli"
+            android:layout_marginLeft="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/xanhdam"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/btnPt_vc"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/arrow_icon"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHthvc"
+            android:text="@string/ord_GHN"
+            android:layout_marginLeft="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/xanhdam"
+            android:textStyle="normal"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPt_tt"
+            android:text="@string/ord_pay"
+            android:layout_marginLeft="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/xanhdam"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/btnPt_tt"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/arrow_icon"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHthtt"
+        android:text="@string/ord_vdt"
+        android:layout_marginLeft="14dp"
+        android:textSize="18sp"
+        android:textColor="@color/xanhdam"
+        android:textStyle="normal"/>
+</LinearLayout>
+
+    <Toolbar
+        android:id="@+id/line_toolbar_dth3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/line_toolbar_dth2">
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@android:color/black" />
+    </Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/line_toolbar_dth3">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTt_H"
+                android:text="@string/ord_tong"
+                android:layout_marginLeft="14dp"
+                android:textSize="18sp"
+                android:textColor="@color/xanhdam"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txTnH"
+                android:text="@string/ord_800"
+                android:layout_marginLeft="115dp"
+                android:textSize="18sp"
+                android:textColor="@color/xanhdam"
+                android:textStyle="normal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTp_vc"
+                android:text="@string/ord_delifee"
+                android:layout_marginLeft="14dp"
+                android:textSize="18sp"
+                android:textColor="@color/xanhdam"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPvc"
+                android:text="@string/ord_35"
+                android:layout_marginLeft="49dp"
+                android:textSize="18sp"
+                android:textColor="@color/xanhdam"
+                android:textStyle="normal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTtht"
+                android:text="Tồng thanh toán:"
+                android:layout_marginLeft="14dp"
+                android:textSize="18sp"
+                android:textColor="@color/xanhdam"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTTT"
+                android:text="@string/ord_total"
+                android:layout_marginLeft="105dp"
+                android:textSize="18sp"
+                android:textColor="@color/xanhdam"
+                android:textStyle="normal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDathang"
+        android:layout_width="173dp"
+        android:layout_height="43dp"
+        android:background="@drawable/custom_buton_corner"
+        android:textSize="20sp"
+        android:text="@string/ord_title"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textColor="@color/xam"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

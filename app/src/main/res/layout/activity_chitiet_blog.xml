@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/hongpastel">
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="@string/news_news"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+
+    </Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/christmas"
+                android:id="@+id/imvchitiet"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txttieude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:gravity="center"
+                android:text="@string/news_xmas"
+                android:textStyle="bold"
+                android:textColor="@color/xanhdam"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtmota"
+                android:text="@string/news_xmaxInfo"
+                android:justificationMode="inter_word"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:textColor="@color/xanhdam"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

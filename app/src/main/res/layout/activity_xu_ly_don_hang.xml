@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_title"
+        android:textSize="28sp"
+        android:textColor="@color/xanhdam"
+        android:gravity="center_horizontal"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/chk_total"
+            android:textSize="20sp"
+            android:textColor="@color/xanhdam"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:text="@string/chk_0d"
+            android:textSize="20sp"
+            android:textColor="@color/xanhdam"
+            android:gravity="right"
+            android:layout_marginEnd="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/chk_totaldeli"
+            android:textSize="20sp"
+            android:textColor="@color/xanhdam"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:text="@string/chk_0d"
+            android:textSize="20sp"
+            android:textColor="@color/xanhdam"
+            android:gravity="right"
+            android:layout_marginEnd="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/chk_total_all"
+            android:textSize="20sp"
+            android:textColor="@color/xanhdam"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:text="@string/chk_0d"
+            android:textSize="20sp"
+            android:textColor="@color/xanhdam"
+            android:gravity="right"
+            android:layout_marginEnd="5dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_conti"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/xanhdam"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

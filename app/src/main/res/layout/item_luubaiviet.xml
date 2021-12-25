@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LuuActivity">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/hongpastel">
+        <ImageButton
+            android:id="@+id/imvBackAccount"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_arrow_back"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="6dp"
+            android:background="@color/hongpastel"
+            />
+        <TextView
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="wrap_content"
+            android:text="@string/acc_title"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+
+    </Toolbar>
+
+    <TextView
+        android:id="@+id/muc_baiviet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acc_saved"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="9dp"
+        android:textStyle="normal"
+        android:textColor="@color/xam">
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnbv_01"
+                android:layout_width="297dp"
+                android:layout_height="46dp"
+                android:background="@drawable/custom_color_button"
+                android:textSize="18sp"
+                android:text="@string/acc_bst"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:layout_margin="14dp"
+                android:layout_gravity="center"></Button>
+
+            <Button
+                android:id="@+id/btnbv_02"
+                android:layout_width="297dp"
+                android:layout_height="46dp"
+                android:background="@drawable/custom_color_button"
+                android:textSize="18sp"
+                android:text="@string/acc_trend"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:layout_margin="14dp"
+                android:layout_gravity="center"></Button>
+
+            <Button
+                android:id="@+id/btnbv_03"
+                android:layout_width="297dp"
+                android:layout_height="46dp"
+                android:background="@drawable/custom_color_button"
+                android:textSize="18sp"
+                android:text="@string/acc_mix"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:layout_margin="14dp"
+                android:layout_gravity="center"></Button>
+
+            <Button
+                android:id="@+id/btnbv_04"
+                android:layout_width="297dp"
+                android:layout_height="46dp"
+                android:background="@drawable/custom_color_button"
+                android:textSize="18sp"
+                android:text="@string/acc_beauty"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:layout_margin="14dp"
+                android:layout_gravity="center"></Button>
+
+            <Button
+                android:id="@+id/btnbv_05"
+                android:layout_width="297dp"
+                android:layout_height="46dp"
+                android:background="@drawable/custom_color_button"
+                android:textSize="18sp"
+                android:text="@string/acc_makeuo"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:layout_margin="14dp"
+                android:layout_gravity="center"></Button>
+
+            <Button
+                android:id="@+id/btnbv_06"
+                android:layout_width="297dp"
+                android:layout_height="46dp"
+                android:background="@drawable/custom_color_button"
+                android:textSize="18sp"
+                android:text="@string/acc_skincare"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:layout_margin="14dp"
+                android:layout_gravity="center"></Button>
+
+            <Button
+                android:id="@+id/btnbv_07"
+                android:layout_width="297dp"
+                android:layout_height="46dp"
+                android:background="@drawable/custom_color_button"
+                android:textSize="18sp"
+                android:text="@string/acc_mini"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:layout_margin="14dp"
+                android:layout_gravity="center"></Button>
+
+            <Button
+                android:id="@+id/btnbv_08"
+                android:layout_width="297dp"
+                android:layout_height="46dp"
+                android:background="@drawable/custom_color_button"
+                android:textSize="18sp"
+                android:text="@string/acc_blazer"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:layout_margin="14dp"
+                android:layout_gravity="center"></Button>
+
+            <Button
+                android:id="@+id/btnbv_09"
+                android:layout_width="297dp"
+                android:layout_height="46dp"
+                android:background="@drawable/custom_color_button"
+                android:textSize="18sp"
+                android:text="@string/acc_pant"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:layout_margin="14dp"
+                android:layout_gravity="center"></Button>
+
+            <Button
+                android:id="@+id/btnbv_10"
+                android:layout_width="297dp"
+                android:layout_height="46dp"
+                android:background="@drawable/custom_color_button"
+                android:textSize="18sp"
+                android:text="@string/acc_xmas"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:layout_margin="14dp"
+                android:layout_gravity="center"></Button>
+
+            <Button
+                android:id="@+id/btnbv_11"
+                android:layout_width="297dp"
+                android:layout_height="46dp"
+                android:background="@drawable/custom_color_button"
+                android:textSize="18sp"
+                android:text="@string/acc_voucher"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:layout_margin="14dp"
+                android:layout_gravity="center"></Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

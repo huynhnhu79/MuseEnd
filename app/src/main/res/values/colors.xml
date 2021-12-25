@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="red">#FF0000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="xanhdam">#40465B</color>
+    <color name="xanhnhat">#727A93</color>
+    <color name="xam">#CCD1CF</color>
+    <color name="dodam">#733236</color>
+    <color name="hongpastel">#B49088</color>
+    <color name="hongnhat">#E1B8B0</color>
+    <color name="hongtrang">#EDDBD7</color>
+    <color name="xanh">#424D77</color>
+
+    <color name="pink">#DF9D9D</color>
+
+    <color name="xanh_custom">#838998</color>
+
+</resources>

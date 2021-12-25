@@ -1,0 +1,156 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.message.ChatFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/imgBack"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_baseline_arrow_back_1"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_width="170dp"
+                    android:layout_height="96dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logofn" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnChinhSach"
+                android:backgroundTint="@color/xam"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/custom_color_button"
+                android:elevation="8dp"
+                android:text="@string/chinhsach"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:textColor="@color/xanhdam"/>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@color/xanhdam" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutText1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:id="@+id/txtText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="fill_horizontal"
+                    android:text="@string/content_chinhsach"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnHinhThuc"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_color_button"
+                android:backgroundTint="@color/xam"
+                android:elevation="8dp"
+                android:text="@string/cachinhthuc"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:textColor="@color/xanhdam"/>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@color/xanhdam" />
+            <LinearLayout
+                android:id="@+id/linearLayoutText2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:id="@+id/txtText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="fill_horizontal"
+                    android:text="@string/content_hinhthuc"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnTrangThai"
+                android:backgroundTint="@color/xam"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_color_button"
+                android:elevation="8dp"
+                android:text="@string/trangthai"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:textColor="@color/xanhdam"/>
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@color/xanhdam" />
+            <LinearLayout
+                android:id="@+id/linearLayoutText3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:id="@+id/txtText3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="fill_horizontal"
+                    android:text="@string/content_trangthai"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

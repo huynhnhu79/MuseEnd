@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.message.ChatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="96dp"
+            android:src="@drawable/logofn"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:layout_weight="3"
+                android:background="@drawable/custom_buton_2corner"
+                android:text="@string/mes_hot"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/xanhdam"/>
+            <TextView
+                android:id="@+id/txtHotline"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_weight="2"
+                android:text="@string/mes_0779721054"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/xanhdam"/>
+
+            <!--            <Button-->
+            <!--                android:layout_width="45dp"-->
+            <!--                android:layout_height="45dp"-->
+            <!--                android:background="@drawable/custom_nut"-->
+            <!--                android:backgroundTint="@color/hongnhat"-->
+            <!--                android:layout_marginEnd="10dp"-->
+            <!--                android:drawableStart="@drawable/ic_baseline_call_24"-->
+            <!--                />-->
+            <ImageButton
+                android:id="@+id/imgHotline"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                style="@android:style/Widget.ImageButton"
+                android:src="@drawable/ic_baseline_call_24"
+                android:background="@drawable/custom_nut"
+                android:backgroundTint="@color/hongnhat"
+                android:layout_marginEnd="10dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="30dp">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:layout_weight="3"
+                android:background="@drawable/custom_buton_2corner"
+                android:text="@string/mes_d1"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/xanhdam"/>
+            <TextView
+                android:id="@+id/txtDD1"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_weight="2"
+                android:text="@string/mes_0901103073"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/xanhdam"/>
+
+
+            <ImageButton
+                android:id="@+id/imgDD1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                style="@android:style/Widget.ImageButton"
+                android:src="@drawable/ic_baseline_call_24"
+                android:background="@drawable/custom_nut"
+                android:backgroundTint="@color/hongnhat"
+                android:layout_marginEnd="10dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="30dp">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:layout_weight="3"
+                android:background="@drawable/custom_buton_2corner"
+                android:text="@string/mes_d2"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/xanhdam"/>
+            <TextView
+                android:id="@+id/txtDD2"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_weight="2"
+                android:text="@string/mes_0939677440"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/xanhdam"/>
+
+
+            <ImageButton
+                android:id="@+id/imgDD2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                style="@android:style/Widget.ImageButton"
+                android:src="@drawable/ic_baseline_call_24"
+                android:background="@drawable/custom_nut"
+                android:backgroundTint="@color/hongnhat"
+                android:layout_marginEnd="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

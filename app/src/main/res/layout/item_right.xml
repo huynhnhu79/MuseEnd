@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:gravity="right|center_vertical"
+        android:textSize="18sp"
+        android:text="@string/mess_ques2"
+        android:textColor="@color/xanhdam"
+        android:id="@+id/txtGetMessage"
+        android:padding="10dp"
+        android:background="@drawable/custom_right"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

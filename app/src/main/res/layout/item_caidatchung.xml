@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".CaidatchungActivity">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/hongpastel">
+        <ImageButton
+            android:id="@+id/imvBackAccount"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_arrow_back"
+
+            android:background="@color/hongpastel"
+            />
+        <TextView
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="wrap_content"
+            android:text="@string/acc_title"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+
+    </Toolbar>
+
+    <TextView
+        android:id="@+id/muc_caidat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acc_cdc"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="9dp"
+        android:textStyle="normal"
+        android:textColor="@color/xam">
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acc_nn"
+            android:textColor="@color/black"
+            android:layout_marginStart="21dp"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:text="@string/acc_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="@dimen/_120sdp"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_ntb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acc_noti"
+            android:textColor="@color/black"
+            android:layout_marginStart="21dp"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_tb"
+            android:layout_width="27dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="197dp">
+
+        </androidx.appcompat.widget.SwitchCompat>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

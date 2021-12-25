@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".QuanlyActivity">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/hongpastel">
+        <ImageButton
+            android:id="@+id/imvBackAccount"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_arrow_back"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="6dp"
+            android:background="@color/hongpastel"
+            />
+        <TextView
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="wrap_content"
+            android:text="TÀI KHOẢN"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+    </Toolbar>
+
+    <TextView
+        android:id="@+id/muc_ql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ ĐƠN HÀNG"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="9dp"
+        android:textStyle="normal"
+        android:textColor="@color/xam">
+    </TextView>
+
+        <Button
+            android:id="@+id/btnDh"
+            android:layout_width="297dp"
+            android:layout_height="46dp"
+            android:background="@drawable/custom_color_button"
+            android:textSize="18sp"
+            android:text="Tất cả đơn hàng"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:layout_margin="14dp"
+            android:layout_gravity="center"></Button>
+
+        <Button
+        android:id="@+id/btnCtt"
+        android:layout_width="297dp"
+        android:layout_height="46dp"
+        android:background="@drawable/custom_color_button"
+        android:textSize="18sp"
+        android:text="Chưa thanh toán"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:layout_margin="14dp"
+        android:layout_gravity="center"></Button>
+
+        <Button
+        android:id="@+id/btnDxl"
+        android:layout_width="297dp"
+        android:layout_height="46dp"
+        android:background="@drawable/custom_color_button"
+        android:textSize="18sp"
+        android:text="Đang xử lý"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:layout_margin="14dp"
+        android:layout_gravity="center"></Button>
+
+        <Button
+        android:id="@+id/btnDvc"
+        android:layout_width="297dp"
+        android:layout_height="46dp"
+        android:background="@drawable/custom_color_button"
+        android:textSize="18sp"
+        android:text="Đang vận chuyển"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:layout_margin="14dp"
+        android:layout_gravity="center"></Button>
+
+        <Button
+        android:id="@+id/btnGtc"
+        android:layout_width="297dp"
+        android:layout_height="46dp"
+        android:background="@drawable/custom_color_button"
+        android:textSize="18sp"
+        android:text="Đơn hàng đã giao thành công"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:layout_margin="14dp"
+        android:layout_gravity="center"></Button>
+
+        <Button
+        android:id="@+id/btnHuy"
+        android:layout_width="297dp"
+        android:layout_height="46dp"
+        android:background="@drawable/custom_color_button"
+        android:textSize="18sp"
+        android:text="Đã hủy"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:layout_margin="14dp"
+        android:layout_gravity="center"></Button>
+
+        <Button
+        android:id="@+id/btnDg"
+        android:layout_width="297dp"
+        android:layout_height="46dp"
+        android:background="@drawable/custom_color_button"
+        android:textSize="18sp"
+        android:text="Đánh giá"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:layout_margin="14dp"
+        android:layout_gravity="center"></Button>
+
+
+
+
+
+
+</LinearLayout>

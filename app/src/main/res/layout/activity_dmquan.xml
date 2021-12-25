@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DMQuanActivity"
+    android:background="@color/white">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/drawerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/hongpastel">
+
+                <ImageView
+                    android:id="@+id/imvBackHome"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"                       android:src="@drawable/ic_baseline_arrow_back"
+
+                    />
+
+                <EditText
+                    android:layout_width="@dimen/_240sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:hint="@string/pd_find"/>
+            </androidx.appcompat.widget.Toolbar>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/pd_pants"
+                    android:textColor="@color/xanhdam"
+                    android:textSize="24sp"
+                    android:background="@color/white"
+                    android:textStyle="bold"/>
+                <GridView
+                    android:id="@+id/gvDMQuan"
+                    android:numColumns="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

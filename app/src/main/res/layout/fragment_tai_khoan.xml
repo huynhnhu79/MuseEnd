@@ -1,0 +1,244 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.Fragment.TaiKhoanFragment"
+    android:background="@color/white"
+    android:id="@+id/tkFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <androidx.appcompat.widget.Toolbar
+           android:layout_width="match_parent"
+           android:layout_height="?attr/actionBarSize"
+           android:background="@color/hongpastel"
+           android:id="@+id/header_tk"
+           app:layout_constraintTop_toTopOf="parent">
+           <TextView
+               android:layout_width="280dp"
+               android:layout_height="wrap_content"
+               android:text="@string/acc_title"
+               android:textColor="@color/white"
+               android:textAlignment="center"
+               android:textSize="20dp"
+               android:layout_gravity="center"
+               />
+       </androidx.appcompat.widget.Toolbar>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           app:layout_constraintTop_toBottomOf="@id/header_tk">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="14dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/acc"
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="@dimen/_20sdp"
+                            android:src="@drawable/ic_action_account" />
+
+                        <TextView
+                            android:id="@+id/txtdc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/acc_nhom11"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btnTtcn"
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginStart="@dimen/_100sdp"
+                            android:background="@drawable/arrow_icon" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/txtTenSDT"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="47dp"
+                        android:text="@string/acc_sdt"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="14dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/crt"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:src="@drawable/ic_action_cart" />
+
+                    <TextView
+                        android:id="@+id/dh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acc_qly"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="normal" />
+
+                    <Button
+                        android:id="@+id/btnQldh"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_marginStart="@dimen/_100sdp"
+                        android:background="@drawable/arrow_icon" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="14dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/lu"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:src="@drawable/ic_action_save" />
+
+                    <TextView
+                        android:id="@+id/bv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acc_save"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="normal" />
+
+                    <Button
+                        android:id="@+id/btnL"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_marginStart="@dimen/_137sdp"
+                        android:background="@drawable/arrow_icon" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="14dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/fl"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:src="@drawable/ic_action_follow" />
+
+                    <TextView
+                        android:id="@+id/ct"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acc_fl"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="normal" />
+
+                    <Button
+                        android:id="@+id/btnTdct"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_marginStart="@dimen/_94sdp"
+                        android:background="@drawable/arrow_icon" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="14dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/cd"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:src="@drawable/ic_action_setting" />
+
+                    <TextView
+                        android:id="@+id/st"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acc_set1"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="normal" />
+
+                    <Button
+                        android:id="@+id/btnCdc"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_marginLeft="@dimen/_124sdp"
+                        android:background="@drawable/arrow_icon" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="14dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/dx"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:src="@drawable/ic_action_logout" />
+
+                    <TextView
+                        android:id="@+id/xt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acc_out"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="normal" />
+
+                    <Button
+                        android:id="@+id/btnDx"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_marginLeft="@dimen/_148sdp"
+                        android:background="@drawable/arrow_icon" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
