@@ -84,13 +84,11 @@
             android:textSize="18sp"
             android:textStyle="normal" />
 
-        <androidx.appcompat.widget.SwitchCompat
-            android:id="@+id/switch_tb"
-            android:layout_width="27dp"
-            android:layout_height="37dp"
-            android:layout_marginStart="197dp">
-
-        </androidx.appcompat.widget.SwitchCompat>
+        <Switch
+            android:id="@+id/simpleSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_84sdp"/>
     </LinearLayout>
 
 

@@ -234,7 +234,7 @@
                 android:textStyle="normal"
                 android:textColor="@color/white"
                 android:layout_margin="51dp"
-                android:layout_gravity="center"></Button>
+                android:layout_gravity="center"/>
 
         </LinearLayout>
     </RelativeLayout>

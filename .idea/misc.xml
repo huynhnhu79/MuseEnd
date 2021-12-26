@@ -135,17 +135,37 @@
         <entry key="..\:/document/GitHub/Muse/app/src/main/res/layout/item_thongtin_canhan.xml" value="0.2125" />
         <entry key="..\:/document/GitHub/Muse/app/src/main/res/menu/content_cart.xml" value="0.2125" />
         <entry key="..\:/document/GitHub/Muse/app/src/main/res/menu/custom_menu.xml" value="0.2125" />
+        <entry key="..\:/document/museeee/app/src/main/res/drawable/custom_buton_2corner.xml" value="0.22864583333333333" />
+        <entry key="..\:/document/museeee/app/src/main/res/drawable/custom_buton_corner.xml" value="0.22864583333333333" />
+        <entry key="..\:/document/museeee/app/src/main/res/drawable/custom_button.xml" value="0.22864583333333333" />
+        <entry key="..\:/document/museeee/app/src/main/res/drawable/custom_button_new.xml" value="0.22864583333333333" />
+        <entry key="..\:/document/museeee/app/src/main/res/drawable/custom_round.xml" value="0.22864583333333333" />
+        <entry key="..\:/document/museeee/app/src/main/res/drawable/ic_ao.xml" value="0.22864583333333333" />
+        <entry key="..\:/document/museeee/app/src/main/res/drawable/ic_ao2.xml" value="0.22864583333333333" />
+        <entry key="..\:/document/museeee/app/src/main/res/drawable/ic_aoo.xml" value="0.22864583333333333" />
+        <entry key="..\:/document/museeee/app/src/main/res/drawable/ic_baseline_cart.xml" value="0.22864583333333333" />
+        <entry key="..\:/document/museeee/app/src/main/res/drawable/ic_baseline_local_shipping_24.xml" value="0.22864583333333333" />
+        <entry key="..\:/document/museeee/app/src/main/res/drawable/ic_baseline_sale_off.xml" value="0.22864583333333333" />
+        <entry key="..\:/document/museeee/app/src/main/res/drawable/ic_giohang.xml" value="0.22864583333333333" />
+        <entry key="..\:/document/museeee/app/src/main/res/drawable/ic_heart.xml" value="0.22864583333333333" />
+        <entry key="..\:/document/museeee/app/src/main/res/drawable/ic_like.xml" value="0.22864583333333333" />
+        <entry key="..\:/document/museeee/app/src/main/res/drawable/ic_logo_fn_01.xml" value="0.22864583333333333" />
+        <entry key="..\:/document/museeee/app/src/main/res/drawable/ic_t_shirt.xml" value="0.22864583333333333" />
+        <entry key="..\:/document/museeee/app/src/main/res/layout/activity_chitiet_san_pham.xml" value="0.25" />
+        <entry key="..\:/document/museeee/app/src/main/res/layout/activity_dat_hang.xml" value="0.22" />
         <entry key="..\:/document/museeee/app/src/main/res/layout/activity_login.xml" value="0.2" />
-        <entry key="..\:/document/museeee/app/src/main/res/layout/fragment_tai_khoan.xml" value="0.39375" />
+        <entry key="..\:/document/museeee/app/src/main/res/layout/fragment_tai_khoan.xml" value="0.5" />
         <entry key="..\:/document/museeee/app/src/main/res/layout/fragment_thong_bao.xml" value="0.22" />
-        <entry key="..\:/document/museeee/app/src/main/res/layout/item_caidatchung.xml" value="0.2" />
+        <entry key="..\:/document/museeee/app/src/main/res/layout/item_caidatchung.xml" value="0.33" />
         <entry key="..\:/document/museeee/app/src/main/res/layout/item_diachi.xml" value="0.2" />
         <entry key="..\:/document/museeee/app/src/main/res/layout/item_left.xml" value="0.33" />
+        <entry key="..\:/document/museeee/app/src/main/res/layout/item_list_order.xml" value="0.20742753623188406" />
         <entry key="..\:/document/museeee/app/src/main/res/layout/item_luubaiviet.xml" value="0.2" />
         <entry key="..\:/document/museeee/app/src/main/res/layout/item_quanlydh.xml" value="0.22" />
         <entry key="..\:/document/museeee/app/src/main/res/layout/item_right.xml" value="0.22" />
         <entry key="..\:/document/museeee/app/src/main/res/layout/item_theodoi.xml" value="0.25" />
-        <entry key="..\:/document/museeee/app/src/main/res/layout/item_thongtin_canhan.xml" value="0.22" />
+        <entry key="..\:/document/museeee/app/src/main/res/layout/item_thongbao.xml" value="0.18" />
+        <entry key="..\:/document/museeee/app/src/main/res/layout/item_thongtin_canhan.xml" value="0.1" />
         <entry key="..\:/download/DOAN6/app/src/main/res/drawable/ic_baseline_clear.xml" value="0.21388888888888888" />
         <entry key="..\:/download/DOAN6/app/src/main/res/layout/activity_enter_otpactivity.xml" value="0.19953703703703704" />
         <entry key="..\:/download/DOAN6/app/src/main/res/layout/activity_login.xml" value="0.19953703703703704" />

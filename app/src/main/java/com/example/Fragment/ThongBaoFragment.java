@@ -87,10 +87,10 @@ public class ThongBaoFragment extends Fragment {
 
     private ArrayList<Thongbao> initData(){
         thongbaos = new ArrayList<>();
-        thongbaos.add(new Thongbao("Cảm ơn bạn đã mua hàng của Muse. Xin gửi bạn Voucher giảm giá 20% cho lần mua tiếp theo.\n" + "Mã giảm giá: KH123456",R.drawable.ic_like));
+        thongbaos.add(new Thongbao("Cảm ơn bạn đã mua hàng của Muse. Xin gửi bạn Voucher giảm giá 20% cho lần mua tiếp theo.\n" + "Mã giảm giá: KH123456",R.drawable.ic_heart));
         thongbaos.add(new Thongbao("Giỏ hàng của bạn đang trống. Hãy tiếp tục tìm kiếm và mua sắm sản phẩm bạn muốn nào",R.drawable.ic_baseline_cart));
-        thongbaos.add(new Thongbao("Đơn hàng mã số HC569249 của bạn đang trên đường được vận chuyển đến.\n" + "Vui lòng chú ý điện thoại nhé! Trong qua trình vận chuyển Muse sẽ luôn cập nhật tình hình đơn hàng cho bạn.",R.drawable.ic_baseline_local_shipping_24));
-        thongbaos.add(new Thongbao("Bộ sưu tập áo Cozzi sẽ ra mắt vào 25/12/2021.\n" + "Nhấp vô đây để xem chi tiết.",R.drawable.ic_ao2));
+        thongbaos.add(new Thongbao("\nĐơn hàng mã số HC569249 của bạn đang trên đường được vận chuyển đến.\n" + "\n\nVui lòng chú ý điện thoại nhé! Trong qua trình vận chuyển Muse sẽ luôn cập nhật tình hình đơn hàng cho bạn.",R.drawable.ic_baseline_local_shipping_24));
+        thongbaos.add(new Thongbao("Bộ sưu tập áo Cozzi sẽ ra mắt vào 25/12/2021.\n" + "Nhấp vô đây để xem chi tiết.",R.drawable.ic_t_shirt));
         thongbaos.add(new Thongbao("Sale up to 30% cho bộ sưu tập Sweetie vào Noel này.\n" + "Mua ngay nào!",R.drawable.ic_baseline_sale_off));
 
         return thongbaos;

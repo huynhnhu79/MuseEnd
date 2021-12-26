@@ -33,34 +33,12 @@ public class ChitietThongbao extends AppCompatActivity {
     }
     private void addEvent() {
 
-        Intent intent= getIntent();
-        int hinhanh= intent.getIntExtra("hinhanh",0);
-        String mota= intent.getStringExtra("mota");
+        Intent intent = getIntent();
+        int hinhanh = intent.getIntExtra("hinhanh", 0);
+        String mota = intent.getStringExtra("mota");
         imvNoti.setImageResource(hinhanh);
         txtMota.setText(mota);
 
-//        imvChitiettb.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(getApplicationContext(),GiohangActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-//        lvThongBao.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                if(position==0){
-//                    Intent intent = new Intent(getApplicationContext(),DMAoActivity.class);
-//                    startActivity(intent);
-//                }else if(position==1){
-//
-//                }else {
-//
-//                }
-//                return ;
-//            }
-//        });
     }
-
 
 }

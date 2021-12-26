@@ -172,7 +172,7 @@
                         android:id="@+id/btnTdct"
                         android:layout_width="@dimen/_15sdp"
                         android:layout_height="@dimen/_15sdp"
-                        android:layout_marginStart="@dimen/_94sdp"
+                        android:layout_marginStart="@dimen/_93sdp"
                         android:background="@drawable/arrow_icon" />
                 </LinearLayout>
 
@@ -202,7 +202,7 @@
                         android:id="@+id/btnCdc"
                         android:layout_width="@dimen/_15sdp"
                         android:layout_height="@dimen/_15sdp"
-                        android:layout_marginLeft="@dimen/_124sdp"
+                        android:layout_marginLeft="@dimen/_122sdp"
                         android:background="@drawable/arrow_icon" />
                 </LinearLayout>
 
@@ -232,7 +232,7 @@
                         android:id="@+id/btnDx"
                         android:layout_width="@dimen/_15sdp"
                         android:layout_height="@dimen/_15sdp"
-                        android:layout_marginLeft="@dimen/_148sdp"
+                        android:layout_marginLeft="@dimen/_145sdp"
                         android:background="@drawable/arrow_icon" />
                 </LinearLayout>
 

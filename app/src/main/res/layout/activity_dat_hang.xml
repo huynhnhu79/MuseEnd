@@ -204,10 +204,10 @@
             android:textColor="@color/xanhdam"
             android:textStyle="bold"/>
         <Button
-            android:layout_width="20dp"
+            android:layout_width="@dimen/_15sdp"
             android:layout_height="20dp"
             android:id="@+id/btnPt_vc"
-            android:layout_marginLeft="100dp"
+            android:layout_marginLeft="@dimen/_80sdp"
             android:background="@drawable/arrow_icon"/>
     </LinearLayout>
     <LinearLayout
@@ -239,10 +239,10 @@
             android:textColor="@color/xanhdam"
             android:textStyle="bold"/>
         <Button
-            android:layout_width="20dp"
+            android:layout_width="@dimen/_15sdp"
             android:layout_height="20dp"
             android:id="@+id/btnPt_tt"
-            android:layout_marginLeft="100dp"
+            android:layout_marginLeft="@dimen/_85sdp"
             android:background="@drawable/arrow_icon"/>
     </LinearLayout>
     <TextView
@@ -290,15 +290,16 @@
                 android:textSize="18sp"
                 android:textColor="@color/xanhdam"
                 android:textStyle="bold"/>
+
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/txTnH"
-                android:text="@string/ord_800"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="115dp"
-                android:textSize="18sp"
+                android:text="@string/ord_800"
                 android:textColor="@color/xanhdam"
-                android:textStyle="normal"/>
+                android:textSize="18sp"
+                android:textStyle="normal" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
